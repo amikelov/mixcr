@@ -1,4 +1,5 @@
 "bd-rhapsody-base":
+  abstract: true
   pipeline:
     - align
     - refineTagsAndSort
@@ -52,7 +53,7 @@
                       binNumber: 0
                       minBinWidth: 0.2
                     keys:
-                      - UMI1
+                      - UMI
                 operator:
                   type: group_operator_range
                   lower: 3.0

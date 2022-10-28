@@ -54,7 +54,15 @@ class PresetsTest {
             val tagsInfo = TagsInfo(
                 0,
                 TagInfo(TagType.Cell, TagValueType.Sequence, "CELL", 0),
-                TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI", 1),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL1", 1),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL2", 2),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL3", 3),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL1ROW", 1),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL2COLUMN", 2),
+                TagInfo(TagType.Cell, TagValueType.Sequence, "CELL3PLATE", 3),
+                TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI", 4),
+                TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI1", 5),
+                TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI2", 6),
             )
             val header = MiXCRHeader(
                 "hashA123",
