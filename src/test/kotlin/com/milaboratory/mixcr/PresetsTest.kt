@@ -63,6 +63,7 @@ class PresetsTest {
                 TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI", 4),
                 TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI1", 5),
                 TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI2", 6),
+                TagInfo(TagType.Molecule, TagValueType.Sequence, "UMI3", 7),
             )
             val header = MiXCRHeader(
                 "hashA123",
