@@ -213,7 +213,7 @@
   align:
     inheritFrom: bundle-kaligner2-v1-base
 
-"hifibio":
+"hifibio-cdr3":
   inheritFrom: bundle-kaligner2-v1-base
   pipeline:
     - align
@@ -353,3 +353,9 @@
       - field: "-aaFeature"
         args: [ "FR4" ]
       - field: "-defaultAnchorPoints"
+
+"hifibio-full-length":
+  inheritFrom: han-et-al-2014-tcr
+  mixins:
+    - type: SetClonotypeAssemblingFeatures
+      features: [ "{CDR1Begin:FR4End}" ]
