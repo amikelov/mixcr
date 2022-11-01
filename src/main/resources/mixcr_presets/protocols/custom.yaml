@@ -355,7 +355,7 @@
       - field: "-defaultAnchorPoints"
 
 "hifibio-full-length":
-  inheritFrom: han-et-al-2014-tcr
+  inheritFrom: hifibio-cdr3
   mixins:
     - type: SetClonotypeAssemblingFeatures
       features: [ "{CDR1Begin:FR4End}" ]
